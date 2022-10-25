@@ -1,0 +1,10 @@
+.image-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-list > *{
+    width: calc(20% - 40px)
+}
